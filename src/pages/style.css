@@ -1,0 +1,224 @@
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:black;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+    } 
+    #navbar{
+        display: flex;
+        align-items: right;
+        justify-content: right;
+
+    }
+    #navbar li {
+list-style: none;
+padding: 15px;
+position: relative;
+
+    }
+    #navbar li a{
+text-decoration: none;
+font-size: 20px;
+color: blanchedalmond;
+    }
+
+.active{
+
+    text-decoration:dotted;
+    background-color:burlywood;
+    padding: 10px;
+}
+
+
+.imgtext{
+    top:30%;
+    left:52%;
+    right:10%;
+    position: absolute;
+    font-size: 60px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+.imgtext2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position:absolute;
+    top: 170%;
+    font-size: 50px;
+    color:black;
+    left: 20%;
+    right: 20%;
+    
+}
+.hello{
+    margin-left:420px;
+    margin-right: 420px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.okay{
+    font-size: 40px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+    color: rgba(255, 0, 191, 0.803);
+}
+.j{
+    background-color:azure;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border-color: bisque;
+    margin-left: 250px;
+    margin-bottom: 25px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 25px;
+    
+}
+.button{
+    background-color:rgb(239, 194, 140);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 15px;
+    color:aliceblue;
+    
+}
+.container{
+
+    display: flex;
+    justify-content: center;
+}
+.carda{
+    background:rgb(253, 232, 235);
+    width: 320px;
+    height: 420px;
+    margin: 40px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cardb{
+    background: #ebf6dac6;
+    width: 320px;
+    height: 420px;
+    margin: 40px;
+    border-radius: 15px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.cardc{
+    background: rgb(219, 230, 238);
+    width: 320px;
+    height: 420px;
+    margin: 40px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-image{
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.card2{
+    background-image: url("https://digitalfinch.co.uk/wp-content/uploads/2021/08/5-Considerations-for-your-Animated-Technology-Video.jpg");
+}
+.card1{
+    background-image: url("https://www.it.miami.edu/_assets/images/about-umit-new-small.jpg");
+}
+.card3{
+background-image: url("https://www.mobilevillage.com/wp-content/uploads/2020/06/2020-tech-events-calendar.jpg");
+}
+
+.y{
+    font-size: 15px;
+    padding: 10px;
+}
+.l{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+}
+.i{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+.profilea{
+    background:rgb(253, 232, 235);
+    width: 270px;
+    height: 400px;
+    margin: 40px;
+    border-radius: 15px;
+}
+.profileb{
+    background: #ebf6dac6;
+    width: 270px;
+    height: 400px;
+    margin: 40px;
+    border-radius: 15px;
+}
+.profilec{
+    background: rgb(219, 230, 238);
+    width: 270px;
+    height: 400px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.profile-image{
+    background-color: black;
+    height: 150px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.p{
+    padding-left: 20px;
+}
+.TEXT{
+    padding-left: 20px;
+}
+
+.profile2{
+    background-image: url("https://cdn.dribbble.com/users/1731254/screenshots/15807927/media/ff4c032ae5fb7d05835cda28e390b287.png?resize=400x0");
+}
+.profile3{
+    background-image: url("https://d2h1bfu6zrdxog.cloudfront.net/wp-content/uploads/2022/09/coderpad-blogspot-addeventlistener-adjustment-1024x683-1.png");
+}
+.profile1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJELUYLOnu534widVgFY8GpLwLq_K2MifPBA&usqp=CAU");
+}
+.style{
+    
+    background-color: black;
+    padding: 6px;
+    
+    color: white;
+    border-radius: 5px;
+    text-decoration:wavy;
+    
+}
+a:hover{
+    color:black;
+    background-color:rgb(221, 156, 110);
+    padding:6px;
+    border-radius: 19px;
+}
+.h{
+    background-color:rgb(249, 246, 243);
+    padding: 10px;
+}
+.head{
+    margin-left: 200px;
+    padding-left: 200px;
+}
